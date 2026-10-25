@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">An abstract illustrated silhouette to replace with a personal photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#343154"/>
+      <stop offset=".55" stop-color="#1c2840"/>
+      <stop offset="1" stop-color="#17333a"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9bfff"/>
+      <stop offset="1" stop-color="#83cbd0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".53" cy=".38" r=".54">
+      <stop offset="0" stop-color="#8572d8" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#8572d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#bg)"/>
+  <rect width="480" height="600" fill="url(#glow)"/>
+  <circle cx="240" cy="255" r="142" fill="none" stroke="#b9afff" stroke-opacity=".12"/>
+  <circle cx="240" cy="255" r="174" fill="none" stroke="#85cfd0" stroke-opacity=".09"/>
+  <path d="M104 554c9-101 62-161 136-161s127 60 136 161" fill="url(#shape)" fill-opacity=".9"/>
+  <path d="M148 246c0-74 39-125 92-125 60 0 94 50 94 125 0 81-40 139-94 139s-92-58-92-139Z" fill="url(#shape)"/>
+  <path d="M148 240c-4-82 32-139 93-139 62 0 102 45 98 122-17-10-30-28-39-51-29 31-82 46-152 42Z" fill="#252743"/>
+  <path d="M121 555c18-70 58-112 119-112s101 42 119 112" fill="#101c30" fill-opacity=".46"/>
+  <text x="240" y="576" fill="#d6d3ed" fill-opacity=".74" font-family="sans-serif" font-size="11" letter-spacing="2" text-anchor="middle">ADD YOUR PHOTO</text>
+</svg>
